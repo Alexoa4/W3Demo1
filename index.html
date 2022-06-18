@@ -9,100 +9,124 @@
   <style>
     body{
       margin:0;
-      padding: 0;
+      }
 
+    .nav-wrapper{
+      color:azure;
+      background-color: black;
+      height: 50px;
     }
 
-    .w3-top{
-      display: flex;
-      padding: 16px;
-      background-color: whitesmoke;
-      color: black;
-      text-align:left;
-      
-    }
+   .wrapper{
+   margin:0 auto;
+   width:1100px;
+   }
 
-    .all-columns{
-      display: grid;
-      grid-template-columns:1fr 1fr 1fr;
-      padding:0;
-      margin: 0;
-      align-content: center;
-      background-color: red;
-      justify-items: center;
-    }
+   .family-images{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 32px;
+   }
+   input[type=text]{
+    width:100%;
+    height: 29px;
+    border: 1px solid #aaa;
+    border-radius:2px ;
+   }
 
+    
   </style>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <body>
-
-   <!--Nav Bar-->
-   <div class="w3-top">
-    <a href="#home" class="w3-bar-item w3-button>">Home</a>
-    <a href="#about" class="w3-bar-item w3-button>">About</a>
-    <a href="#members" class="w3-bar-item w3-button>">Members</a>
-    <a href="#contact" class="w3-bar-item w3-button>">Contact</a>
-   </div>
-
-   <!--Start Content-->
-  <div id="Home" clas="w3-container">
-
-    <!--Slides-->
-      <img src="image/james-PT-gOmCUlCY-unsplash.jpg" alt="The Cross" width=100%" height="600px">
-      <img src="image/rod-long-DRgrzQQsJDA-unsplash.jpg" alt="" width="100%">
-  </div>
-
-  <div id="About" class="w3-container1" style="padding: 32px; text-align: center;">
-    <h1>Our Family</h1>
-    <p style="text-align: center; margin: 10px;">Our family was born on 04/14/2014... Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero maiores quia dicta mollitia aliquid corrupti autem magni quaerat exercitationem aperiam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora minima asperiores eius doloribus iure dolores hic quisquam, odio harum nisi facere voluptates minus vero, animi a. Similique molestias ullam eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita eligendi nihil, aspernatur facilis architecto fugiat saepe distinctio temporibus perspiciatis voluptate? Unde commodi alias blanditiis in molestias neque hic numquam, recusandae iusto autem iste nobis nihil quod, quas possimus vel et?</p>
-
-  </div>
-
-  <div class="three-columns">
-    <h2 class="All members" style="padding:4px; text-align: center;"> Family Members</h2>
-    
-    <div class="all-columns">
-
-    
-        <div>
-            <img src="image/IMG_0162.JPG" alt="Mywife" width="50%">
-  
-        </div>
-
-        <div>
-            <img src="image/IMG_0171.JPG" alt="Myself" width="50%">
+    <div>
       
-        </div>
+              <!--Nav Bar-->
+          <div class="nav-wrapper">
+            <a href="#home" class="w3-bar-item w3-button>">Home</a>
+            <a href="#about" class="w3-bar-item w3-button>">About</a>
+            <a href="#members" class="w3-bar-item w3-button>">Members</a>
+            <a href="#contact" class="w3-bar-item w3-button>">Contact</a>
+          </div>
 
-        <div>
-            <img src="image/IMG_0171.JPG" alt="Myself" width="50%">
-    
-        </div>
-    </div>
-    <!--Contact Section-->
-    <div class="contact-container" style="padding:32px;">
-      <h2 style="text-align: center; text-shadow: 4px;">Contact</h2>
-      <p style="text-align:center">Houston Texas, US<br>
-      Phone: 832-777-7777<br>
-      Email: Ourfamily@gmail.com</p>
-      <p style="text-align:center; opacity:inherit;">Love to visit? Drop a note</p>
+              <!--Start Contnet section-->
 
-      <form action="Alexoboat@gmail.com" target="_blank" style="text-align:center;">
-        <input type="text" placeholder="Name" required><br>
-        <input type="text" placeholder="Email address" required><br>
-        <input type="text" placeholder="Note"><br>
-        <button class="button" type="submit" style="text-align:center ;"><b>SEND</b></button>
-      </form>
+          <div class="wrapper">
+            <div>
+              <img src="image/james-PT-gOmCUlCY-unsplash.jpg" alt="Family Cross" width="100%" height="600px">
+            </div>
+
+              <!--About section-->
+            <div class="about-section" style="padding:32;">
+              <h1 style="text-align: center;"><b></b>Our Family</h1>
+              <p>Our family for born out of love on April 14, 2014. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem qui perferendis nihil quod molestias iusto sapiente ipsam earum, pariatur consequatur minima modi culpa animi id repellat veniam rem maxime numquam. Fuga explicabo velit nihil deserunt, ducimus accusantium provident culpa nostrum sapiente voluptatibus! Libero ipsam pariatur eius, nam sit nemo aliquam quia voluptate, suscipit recusandae alias accusamus hic quas sunt eum.</p>
+
+            </div>
+
+              <!--Members Section-->
+            <div class="family-member">
+              <h2 style="text-align:center"><b></b>Our Family Tree</h2>
+
+                  <div class="family-images">
+                    <div>
+                      <img src="image/IMG_0162.JPG" alt="" width="60%">
+                    </div>
+                    <div>
+                      <img src="image/IMG_0162.JPG" alt="" width="60%x">
+                    </div>
+                    <div>
+                      <img src="image/IMG_0162.JPG" alt="" width="60%">
+                    </div>
+
+              </div>
+            </div>
+                
+               <!--Contact Section-->
+
+            <div class="contact" style="padding:32px; text-align: center;">
+              <h2><b></b>Contact</h2><br>
+              Houston Texas<br>
+              Phone: 777-999-0000<br>
+              Email: itsfamiy.hm@gmail.com.<br>
+              <p style="opacity:1;"><i>Need help? Drop a note</i></p>
+            </div>
+
+            <div class="form" style="text-align: center;">
+                <form action="www.google.com" target="blank">
+                  <input type="text" placeholder="Name" required="name"><br>
+                  <input type="text" placeholder="Email" required="name"><br>
+                  <input type="text" placeholder="Message" required="name">
+                  <br>
+                  <br>
+                  <button type="submit" style="background-color: black; color:bisque; text-align:center">SEND</button>
+                </form>
+
+                <br>
+                <img src="image/rod-long-DRgrzQQsJDA-unsplash.jpg" alt="Area map" width="100%;" height="550px" style="padding-top: 32px; padding-bottom: 10px;">
 
 
 
-    </div>
+
+            </div>
 
 
-  </div>
 
+
+
+
+
+
+
+
+
+            
+          </div>
+
+            
+          
+    </div>   
 
 
 </body>
+
 </html>
